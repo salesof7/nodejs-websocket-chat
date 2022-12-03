@@ -1,3 +1,4 @@
+import { injectable } from "tsyringe";
 import { IUser, User } from "../schemas/User";
 
 interface CreateUserDTO {
@@ -7,6 +8,7 @@ interface CreateUserDTO {
   name: string;
 }
 
+@injectable()
 class CreateUserService {
   async execute({
     email,

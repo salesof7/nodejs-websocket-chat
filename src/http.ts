@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import express from "express";
 import path from "node:path";
 import { createServer } from "node:http";
