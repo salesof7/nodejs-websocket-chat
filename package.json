@@ -2,5 +2,10 @@
   "name": "rocketsocket",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "husky": "^8.0.2"
+  }
 }
