@@ -4,7 +4,7 @@ import { IUser } from "./User";
 
 type IChatRoom = Document & {
   idUsers: IUser[];
-  idChatRoom: String;
+  idChatRoom: string;
 };
 
 const ChatRoomSchema = new Schema({
